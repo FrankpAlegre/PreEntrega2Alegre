@@ -1,2 +1,2 @@
 # PreEntrega2Alegre
-https://frankpalegre.github.io/prueba2/
+https://frankpalegre.github.io/PreEntrega2Alegre/
