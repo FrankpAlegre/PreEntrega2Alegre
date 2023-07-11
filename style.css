@@ -1,5 +1,218 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:  border-box;
+    text-decoration: none;
+    list-style: none;
+}
 
 body{
     font-family: 'Roboto', sans-serif;
 }
+
+.container{
+    max-width: 1200px;
+    margin: 0;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(img/fondo.jpg);
+        background-position: center bottom;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    color: #ffdfcf;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.menu .navbar ul li{
+    position: relative;
+    float: left;
+
+}
+
+.menu .navbar ul li a {
+    font-size: 18px;
+    padding: 20px;
+    color: #ffdfcf;
+    display: flex;
+    font-weight: 600;
+}
+    .menu .navbar ul li a:hover{
+        color: #f0a22d;
+    }
+
+#menu {
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+}
+
+
+.header-content{
+    text-align: center;
+}
+
+.header-content h1{
+    font-size: 75px;
+    line-height: 80px;
+    color: #f9facf;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    padding: 0 250px;
+    margin-bottom: 25px;
+    
+}
+
+
+.btn-1{
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #ce967b ;
+    text-transform: uppercase;
+    color: #c5c5c5;
+
+}
+    .btn-1:hover{
+        background-color: #f0a22d;
+    }
+
+.digimon{
+    padding: 100px 0;
+    background-color:  #e1e2e6;
+    position: relative;
+}
+
+.digimon-content {
+    text-align: center;
+}
+
+.digimon-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.txt-p{
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.cartastop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.digimon1{
+    padding: 0 25px;
+}
+
+.digimon-1 img{
+    width: 200px;
+}
+
+.digimon-img{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.coffe1 h3{
+    color: #414247;
+    font-size: 20px;
+    margin-bottom: 15px;
+
+}
+
+.Blog{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(/img/ulforceRina.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding: 100px 0;
+        height: auto;
+} 
+
+.blog-content {
+    text-align: center;
+}
+
+.blog-content h2{
+    font-size: 55px;
+    line-height: 70px;
+    color: #f9facf;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.blog-content p{
+    font-size: 16px;
+    color: #c5c5c5;
+    margin-bottom: 50px;
+    padding: 0 100px;
+}
+
+.blog-temas{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.blog-1{
+    padding: 0 100px;
+
+}
+
+.blog-1 img{
+    width: 250px;
+    margin-bottom: 15px;
+}
+
+.blog-1 h3{
+    color: #eaccb3;
+    font-size: 18px;
+}
+
